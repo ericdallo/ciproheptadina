@@ -45,3 +45,52 @@ body {
 .impress-on-step-3 {
     background-color: #8e44ad;
 }
+
+.slide-4 figcaption {
+	font-size: 1.5em;	
+}
+
+.slide-4 img {
+	margin-top: 2em;
+}
+
+.impress-on-step-4 {
+    background-color: #2c3e50;
+}
+
+.slide-5 {
+	font-size: 2em;
+	width: 1400px;
+	color: black;
+}
+
+.slide-5  li {
+	margin: 2em 0;
+}
+
+.impress-on-step-5 {
+    background-color: #ecf0f1;
+}
+
+.slide-6 {
+	font-size: 2.4em;
+	line-height: 1.6;
+}
+
+.impress-on-step-6 {
+    background-color: #c0392b;
+}
+
+.slide-7 {
+	font-size: 3.6em;
+	text-align: center;
+	display: none;
+}
+
+.impress-on-step-7 {
+    background-color: #f1c40f;
+}
+
+.impress-on-step-7 .slide-7 {
+	display: inline-block;
+}
