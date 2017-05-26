@@ -1,32 +1,32 @@
 body {
-	background-color: #1abc9c;
-	color: white;
-	font-family: "museo-sans";
+    background-color: #1abc9c;
+    color: white;
+    font-family: "museo-sans";
     transition: background-color 1s;
 }
 
 .step {
-	display: block;
-	width: 1200px;
+    display: block;
+    width: 1200px;
 }
 
 .slide-1 {
-	font-size: 1.4em;
-	text-align: center;
+    font-size: 1.4em;
+    text-align: center;
 }
 
 .slide-1 h2 {
-	margin-bottom: 3em;
+    margin-bottom: 3em;
 }
 
 .slide-2 {
-	width: 1400px;
-	font-size: 2.4em;
+    width: 1400px;
+    font-size: 2.4em;
 }
 
 .slide-2  li {
-	margin: 3em 0;
-	line-height: 1.4;
+    margin: 3em 0;
+    line-height: 1.4;
 }
 
 .impress-on-step-2 {
@@ -34,12 +34,12 @@ body {
 }
 
 .slide-3 h3 {
-	font-size: 2.4em;
+    font-size: 2.4em;
 }
 
 .slide-3 li {
-	font-size: 2em;
-	line-height: 1.4;
+    font-size: 2em;
+    line-height: 1.4;
 }
 
 .impress-on-step-3 {
@@ -47,11 +47,11 @@ body {
 }
 
 .slide-4 figcaption {
-	font-size: 1.5em;	
+    font-size: 1.5em;   
 }
 
 .slide-4 img {
-	margin-top: 2em;
+    margin-top: 2em;
 }
 
 .impress-on-step-4 {
@@ -59,13 +59,13 @@ body {
 }
 
 .slide-5 {
-	font-size: 2em;
-	width: 1400px;
-	color: black;
+    font-size: 2em;
+    width: 1400px;
+    color: black;
 }
 
 .slide-5  li {
-	margin: 2em 0;
+    margin: 2em 0;
 }
 
 .impress-on-step-5 {
@@ -73,8 +73,9 @@ body {
 }
 
 .slide-6 {
-	font-size: 2.4em;
-	line-height: 1.6;
+    font-size: 2.4em;
+    line-height: 1.6;
+    transition: opacity 0.4s linear;
 }
 
 .impress-on-step-6 {
@@ -82,15 +83,114 @@ body {
 }
 
 .slide-7 {
-	font-size: 3.6em;
-	text-align: center;
-	display: none;
+    font-size: 2.4em;
+    text-align: right;
+    padding-top: 8em;
+    padding-right: 4em;
+    opacity: 0;
+    transition: opacity 0.4s linear;
 }
 
 .impress-on-step-7 {
-    background-color: #f1c40f;
+    background-color: #c0392b;
 }
 
 .impress-on-step-7 .slide-7 {
-	display: inline-block;
+    opacity: 1;
+}
+
+.impress-on-step-7 .slide-6 {
+    opacity: 0.5;
+}
+
+.slide-8 {
+    opacity: 0;
+    transition: opacity 0.4s linear;
+}
+
+.slide-8 figure {
+    display: inline-block;
+}
+
+.slide-8 figcaption {
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+
+.impress-on-step-8 {
+    background-color: #d35400;
+}
+
+.impress-on-step-8 .slide-8 {
+    opacity: 1;
+}
+
+.slide-9 {
+    opacity: 0;
+    transition: opacity 0.4s linear;
+}
+
+.slide-9 .small-stretch {
+    position: absolute;
+    opacity: 0.6;
+    right: 11.5em;
+    top: 9em;
+}
+
+.slide-9 .small-stretch::before {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border-bottom: 12em solid transparent;
+    border-right: 20em solid black;
+    left: -10.5em;
+    bottom: 3em;
+    z-index: -1;
+}
+
+.slide-9 .small-stretch::after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border-bottom: 12em solid transparent;
+    border-left: 21em solid black;
+    right: -11em;
+    bottom: 3em;
+    z-index: -1;
+}
+
+.slide-9 .big-stretch {
+    position: absolute;
+    width: 40em;
+    bottom: -3em;
+    right: 0;
+}
+
+.impress-on-step-9 {
+    background-color: #d35400;
+}
+
+.impress-on-step-9 .slide-9 {
+    opacity: 1;
+}
+
+.impress-on-step-9 .slide-8 {
+    opacity: 0.5;
+}
+
+.slide-11 {
+    font-size: 3.6em;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.4s linear;
+}
+
+.impress-on-step-11 {
+    background-color: #f1c40f;
+}
+
+.impress-on-step-11 .slide-11 {
+    opacity: 1;
 }
