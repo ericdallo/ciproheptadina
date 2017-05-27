@@ -8,6 +8,8 @@ body {
 .step {
     display: block;
     width: 1200px;
+    opacity: 0;
+    transition: opacity 2s linear;
 }
 
 .slide-1 {
@@ -17,6 +19,11 @@ body {
 
 .slide-1 h2 {
     margin-bottom: 3em;
+}
+
+.impress-on-step-1 .slide-1 {
+    opacity: 1;
+    transition: opacity 0s linear;
 }
 
 .slide-2 {
@@ -33,6 +40,11 @@ body {
     background-color: #2980b9;
 }
 
+.impress-on-step-2 .slide-2 {
+    opacity: 1;
+    transition: opacity 0s linear;
+}
+
 .slide-3 h3 {
     font-size: 2.4em;
 }
@@ -46,6 +58,11 @@ body {
     background-color: #8e44ad;
 }
 
+.impress-on-step-3 .slide-3 {
+    opacity: 1;
+    transition: opacity 0s linear;
+}
+
 .slide-4 figcaption {
     font-size: 1.5em;   
 }
@@ -56,6 +73,11 @@ body {
 
 .impress-on-step-4 {
     background-color: #2c3e50;
+}
+
+.impress-on-step-4 .slide-4 {
+    opacity: 1;
+    transition: opacity 0s linear;
 }
 
 .slide-5 {
@@ -72,6 +94,11 @@ body {
     background-color: #ecf0f1;
 }
 
+.impress-on-step-5 .slide-5 {
+    opacity: 1;
+    transition: opacity 0s linear;
+}
+
 .slide-6 {
     font-size: 2.4em;
     line-height: 1.6;
@@ -80,6 +107,11 @@ body {
 
 .impress-on-step-6 {
     background-color: #c0392b;
+}
+
+.impress-on-step-6 .slide-6 {
+    opacity: 1;
+    transition: opacity 0s linear;
 }
 
 .slide-7 {
@@ -97,6 +129,7 @@ body {
 
 .impress-on-step-7 .slide-7 {
     opacity: 1;
+    transition: opacity 0s linear;
 }
 
 .impress-on-step-7 .slide-6 {
@@ -123,6 +156,7 @@ body {
 
 .impress-on-step-8 .slide-8 {
     opacity: 1;
+    transition: opacity 0s linear;
 }
 
 .slide-9 {
@@ -193,4 +227,5 @@ body {
 
 .impress-on-step-11 .slide-11 {
     opacity: 1;
+    transition: opacity 0s linear;
 }
